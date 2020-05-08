@@ -9,3 +9,12 @@ class ApplicationController < Sinatra::Base
   	erb :index
   end
 end
+
+class Dog 
+
+  def initialize(name,type,num)
+
+  end
+
+end
+

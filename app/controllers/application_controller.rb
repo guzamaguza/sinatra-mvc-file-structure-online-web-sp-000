@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/" do
-      dog.rb 
+      dog.rb
   end
 
 end

@@ -10,7 +10,9 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/dog" do
-    Dog.new
+    Dog.name 
+    Dog.breed 
+    Dog.age 
   end
 
 end

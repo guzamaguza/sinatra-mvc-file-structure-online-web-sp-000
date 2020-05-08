@@ -8,12 +8,16 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
-end
 
-class Dog
+  class Dog
 
-  def initialize(name,type,age)
+    def initialize(name,type,age)
+
+    end
 
   end
 
+
 end
+
+

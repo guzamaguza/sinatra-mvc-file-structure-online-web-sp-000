@@ -5,9 +5,9 @@ class Dog
 
   @@all = []
 
-  def initialize(name,type,age)
+  def initialize(name,breed,age)
     @name = name
-    @type = type
+    @breed = breed
     @age = age
     @@all << self
   end

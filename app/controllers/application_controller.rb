@@ -10,11 +10,10 @@ class ApplicationController < Sinatra::Base
   end
 end
 
-class Dog 
+class Dog
 
   def initialize(name,type,num)
 
   end
 
 end
-

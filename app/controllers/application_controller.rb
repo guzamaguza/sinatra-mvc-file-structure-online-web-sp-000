@@ -12,7 +12,7 @@ end
 
 class Dog
 
-  def initialize(name,type,num)
+  def initialize(name,type,age)
 
   end
 
